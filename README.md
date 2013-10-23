@@ -1,4 +1,4 @@
 settlers-dicer
 ==============
 
-Dice roll command-line program for playing settlers
+Dice-rolling command-line program for playing the board game "Settlers of Catan" with friends.
