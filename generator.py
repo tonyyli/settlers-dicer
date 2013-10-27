@@ -27,7 +27,7 @@ def roll_no_replacement(players):
 			tot = pr[0]+pr[1]
 			print " %2d rolled by %s    (%d + %d, %d rolls left)" % (tot, pl.upper(), pr[0], pr[1], npairs-(i+1))
 
-			if tot==7: print "%s'S A DICK" % (random.choice(players).upper())
+			if tot==7: print "ROBBER TIME"
 			wait_to_roll()
 
 		# Remember player order and position
