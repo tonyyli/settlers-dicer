@@ -1,0 +1,6 @@
+settlers-dicer
+==============
+
+Dice-rolling command-line program for playing the board game "Settlers of Catan" with friends.  Cycles through all possible dice rolls in random order.  Each roll must occur exactly once before re-randomizing and repeating.  This makes rolling the dice more like flipping through a shuffled deck of 36 cards, so that the probability of getting any given combination more accurately reflects the frequency with which it appears.
+
+Usage:  Run "generator.py" and the rest should be self-explanatory.
