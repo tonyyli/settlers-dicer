@@ -110,7 +110,7 @@ def want_to_randomize():
 		return False
 
 def wait_to_roll():
-	raw_input("Press any key to roll: ")
+	raw_input("Press 'Enter' or 'Return' to roll: ")
 
 if __name__=='__main__':
 	settlers_dicer()
