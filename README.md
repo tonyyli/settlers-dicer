@@ -5,8 +5,9 @@ Dice-rolling command-line program for playing the board game "Settlers of Catan"
 
 ## Usage
 
-1. Run with the command, ```python generator.py```.
+1. Run script with the command:
+	python settlers_dicer.py
 2. When prompted, enter the number of players for the current game.
-3. When prompted, enter the names of the players **in the correct order** (i.e. going clockwise or counterclockwise around the table).
+3. When prompted, enter the names of the players **in the correct order** (i.e. going clockwise or counterclockwise around the table, depending on players' preference).
 4. When prompted, specify whether you would like to randomize the starting player.  Type "yes" or "y" to pick a random starting player, while keeping the same direction of play (CW or CCW).  Type "no" or "n" to keep the same starting player you specified in step 3.
 5. Lay out your starting settlements and roads as usual.  When ready, hit Return/Enter to roll.  Repeat roll until game ends.
