@@ -9,7 +9,9 @@ Dice-rolling command-line program for playing the board game "Settlers of Catan"
 	```
 	$ python settlers_dicer.py
 	```
+
 2. When prompted, enter the number of players for the current game.  E.g.:
+
 	```
 	Enter number of players: 4
 	```
