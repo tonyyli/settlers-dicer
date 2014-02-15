@@ -6,17 +6,14 @@ Dice-rolling command-line program for playing the board game "Settlers of Catan"
 ## Usage
 
 1. At the command line, run script with the command:
-
-```
+	```
 	$ python settlers_dicer.py
-```
+	```
 2. When prompted, enter the number of players for the current game.  E.g.:
-
-```
+	```
 	Enter number of players: 4
-```
+	```
 3. When prompted, enter the names of the players **in the correct order** (i.e. going clockwise or counterclockwise around the table, depending on players' preference).  E.g.:
-
 ```
 	Enter player 1's name: Alice
 	Enter player 2's name: Bob
@@ -24,7 +21,6 @@ Dice-rolling command-line program for playing the board game "Settlers of Catan"
 	Enter player 4's name: Delilah
 ```
 4. When prompted, specify whether you would like to randomize the starting player.  Type "yes" or "y" to pick a random starting player, while keeping the same direction of play (CW or CCW).  Type "no" or "n" to keep the same starting player you specified in step 3.  E.g.:
-
 ```
 	Randomly pick starting player? y
 	Player order is now: Bob, Charlie, Delilah, Alice
