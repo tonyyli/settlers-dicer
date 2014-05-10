@@ -99,7 +99,7 @@ def want_to_randomize():
 	s = s.lower()
 
 	yes_strings	= ['y', 'yes']	# Accepted replies for 'yes'
-	no_string	= ['n', 'no']	# Accepted replies for 'no'
+	no_strings  = ['n', 'no']	# Accepted replies for 'no'
 
 	if s in yes_strings:
 		return True
